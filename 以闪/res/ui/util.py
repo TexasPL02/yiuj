@@ -32,6 +32,8 @@ def e(text = '返回',code = 1):
 	elif code == 2:
 		# success
 		p = action.catch_click("程序完成，点击结束")
+		exit()
+
 	else:
 		pass
 
